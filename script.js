@@ -19,7 +19,7 @@ function reset() {
 
 function newShell() {
 
-  var left = (Math.random() > 0.5);
+  var left = (Math.random() > 0.3);
   var shell = {};
   shell.x = (1*left);
   shell.y = 1;
